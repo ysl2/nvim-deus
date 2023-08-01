@@ -439,7 +439,7 @@ local highlight_groups = {
 
 	--[[ 4.2.10. Messages]]
 	ErrorMsg   = { fg = red, style = 'bold' },
-	HintMsg    = { fg = gray, style = 'italic' },
+	HintMsg    = { fg = gray },
 	InfoMsg    = { fg = green },
 	ModeMsg    = { fg = yellow },
 	WarningMsg = { fg = orange },
