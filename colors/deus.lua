@@ -395,7 +395,7 @@ local highlight_groups = {
 	Title       = { fg = dslight3 },
 
 	--[[ 4.2.3. Conditional Line Highlighting]]
-	Conceal         = 'NonText',
+	Conceal         = 'Comment',
 	CursorLine      = { bg = gray_darker },
 	CursorLineNr    = { bg = gray_darker, fg = dslight1 },
 	debugBreakpoint = 'ErrorMsg',
