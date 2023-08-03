@@ -382,8 +382,8 @@ local highlight_groups = {
 
 	--[[ 4.2... Editor UI  ]]
 	--[[ 4.2.1. Status Line]]
-	StatusLine       = { bg = gray_darker, fg = green_light },
-	StatusLineNC     = { bg = gray_darker, fg = gray },
+	StatusLine       = { bg = gray_darker, fg = 'CursorLineNr' },
+	StatusLineNC     = { bg = gray_darker, fg = 'LineNr' },
 	StatusLineTerm   = 'StatusLine',
 	StatusLineTermNC = 'StatusLineNC',
 
