@@ -1000,6 +1000,9 @@ local highlight_groups = {
 	ReferencesIcon = 'DefinitionIcon',
 	TargetFileName = 'Directory',
 	TargetWord = 'Title',
+
+	--[[ 4.4.13. vim-illuminate ]]
+  IlluminatedWordText = { bg = '#393E4D' }
 }
 
 --[[ Step 5: Terminal Colors
